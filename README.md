@@ -115,7 +115,9 @@ You can watch file changes and rebuild CSS files by using gulp watch.
 
 其实就是通过gulp各种组合把less编译成css，less里各种变量、主题、函数等
 
-### Documentation and demos各种例子，学习最简单的办法
+### 各种例子，学习最简单的办法
+
+Documentation and demos
 
 分了4类
 
