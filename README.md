@@ -19,7 +19,7 @@
 
 ![Dest](img/dest.jpg)
 
-现状
+现状：前端正在越来越复杂，这是挑战也是机遇
 
 ```
 钱端 ≈ 前端
@@ -35,8 +35,7 @@
 
 https://github.com/trending
 
-
-### 查找
+查找
 
 ![](img/trending.png)
 
@@ -162,12 +161,21 @@ Spectre uses Autoprefixer to make most styles compatible with earlier browsers a
 
 Currently maintained by Yan Zhu. Feel free to submit a pull request. Help is always appreciated.
 
+### 比较，在心里画地图
+
+- 还有同类型的项目么？
+- 它的优点与缺点、差异点等
+- 什么场景使用更合适？
+
+来一张比较恶俗的图
+
+![Map](img/map.jpg)
 
 ### 关于代码
 
 ![](img/code.png)
 
-## 知行合一
+## 知行合一，勇于早轮子
 
 《传习录》里说
 
