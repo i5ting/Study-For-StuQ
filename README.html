@@ -1,0 +1,390 @@
+
+	    <html>
+	      <head>
+				  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	        <title>README</title>
+					
+					<link href="toc/style/github-bf51422f4bb36427d391e4b75a1daa083c2d840e.css" media="all" rel="stylesheet" type="text/css"/>
+					<link href="toc/style/github2-d731afd4f624c99a4b19ad69f3083cd6d02b81d5.css" media="all" rel="stylesheet" type="text/css"/>
+					<link href="toc/css/zTreeStyle/zTreeStyle.css" media="all" rel="stylesheet" type="text/css"/>
+			
+				  <style>
+					pre {
+					    counter-reset: line-numbering;
+					    border: solid 1px #d9d9d9;
+					    border-radius: 0;
+					    background: #fff;
+					    padding: 0;
+					    line-height: 23px;
+					    margin-bottom: 30px;
+					    white-space: pre;
+					    overflow-x: auto;
+					    word-break: inherit;
+					    word-wrap: inherit;
+					}
+
+					pre a::before {
+					  content: counter(line-numbering);
+					  counter-increment: line-numbering;
+					  padding-right: 1em; /* space after numbers */
+					  width: 25px;
+					  text-align: right;
+					  opacity: 0.7;
+					  display: inline-block;
+					  color: #aaa;
+					  background: #eee;
+					  margin-right: 16px;
+					  padding: 2px 10px;
+					  font-size: 13px;
+					  -webkit-touch-callout: none;
+					  -webkit-user-select: none;
+					  -khtml-user-select: none;
+					  -moz-user-select: none;
+					  -ms-user-select: none;
+					  user-select: none;
+					}
+
+					pre a:first-of-type::before {
+					  padding-top: 10px;
+					}
+
+					pre a:last-of-type::before {
+					  padding-bottom: 10px;
+					}
+
+					pre a:only-of-type::before {
+					  padding: 10px;
+					}
+			
+					.highlight { background-color: #ffffcc } /* RIGHT */
+					</style>
+	      </head>
+	      <body>
+				  <div>
+							<div style='width:25%;'>
+									<ul id="tree" class="ztree" style='width:100%'>
+		
+									</ul>
+							</div>
+			        <div id='readme' style='width:70%;margin-left:20%;'>
+			          	<article class='markdown-body'>
+			            	<style>.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #f0f0f0; }
+.highlight .c { color: #60a0b0; font-style: italic } /* Comment */
+.highlight .err { border: 1px solid #FF0000 } /* Error */
+.highlight .k { color: #007020; font-weight: bold } /* Keyword */
+.highlight .o { color: #666666 } /* Operator */
+.highlight .cm { color: #60a0b0; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #007020 } /* Comment.Preproc */
+.highlight .c1 { color: #60a0b0; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #60a0b0; background-color: #fff0f0 } /* Comment.Special */
+.highlight .gd { color: #A00000 } /* Generic.Deleted */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.highlight .gi { color: #00A000 } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #c65d09; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.highlight .gt { color: #0044DD } /* Generic.Traceback */
+.highlight .kc { color: #007020; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #007020; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #007020; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #007020 } /* Keyword.Pseudo */
+.highlight .kr { color: #007020; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #902000 } /* Keyword.Type */
+.highlight .m { color: #40a070 } /* Literal.Number */
+.highlight .s { color: #4070a0 } /* Literal.String */
+.highlight .na { color: #4070a0 } /* Name.Attribute */
+.highlight .nb { color: #007020 } /* Name.Builtin */
+.highlight .nc { color: #0e84b5; font-weight: bold } /* Name.Class */
+.highlight .no { color: #60add5 } /* Name.Constant */
+.highlight .nd { color: #555555; font-weight: bold } /* Name.Decorator */
+.highlight .ni { color: #d55537; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #007020 } /* Name.Exception */
+.highlight .nf { color: #06287e } /* Name.Function */
+.highlight .nl { color: #002070; font-weight: bold } /* Name.Label */
+.highlight .nn { color: #0e84b5; font-weight: bold } /* Name.Namespace */
+.highlight .nt { color: #062873; font-weight: bold } /* Name.Tag */
+.highlight .nv { color: #bb60d5 } /* Name.Variable */
+.highlight .ow { color: #007020; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mb { color: #40a070 } /* Literal.Number.Bin */
+.highlight .mf { color: #40a070 } /* Literal.Number.Float */
+.highlight .mh { color: #40a070 } /* Literal.Number.Hex */
+.highlight .mi { color: #40a070 } /* Literal.Number.Integer */
+.highlight .mo { color: #40a070 } /* Literal.Number.Oct */
+.highlight .sb { color: #4070a0 } /* Literal.String.Backtick */
+.highlight .sc { color: #4070a0 } /* Literal.String.Char */
+.highlight .sd { color: #4070a0; font-style: italic } /* Literal.String.Doc */
+.highlight .s2 { color: #4070a0 } /* Literal.String.Double */
+.highlight .se { color: #4070a0; font-weight: bold } /* Literal.String.Escape */
+.highlight .sh { color: #4070a0 } /* Literal.String.Heredoc */
+.highlight .si { color: #70a0d0; font-style: italic } /* Literal.String.Interpol */
+.highlight .sx { color: #c65d09 } /* Literal.String.Other */
+.highlight .sr { color: #235388 } /* Literal.String.Regex */
+.highlight .s1 { color: #4070a0 } /* Literal.String.Single */
+.highlight .ss { color: #517918 } /* Literal.String.Symbol */
+.highlight .bp { color: #007020 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #bb60d5 } /* Name.Variable.Class */
+.highlight .vg { color: #bb60d5 } /* Name.Variable.Global */
+.highlight .vi { color: #bb60d5 } /* Name.Variable.Instance */
+.highlight .il { color: #40a070 } /* Literal.Number.Integer.Long */</style>
+<h1>Study-For-StuQ</h1>
+
+<ul>
+<li>5月29日StuQ开放日·北京</li>
+<li>主题：《通过开源项目去学习》</li>
+<li>讲师： 桑世龙（网名i5ting），空弦科技 CTO，StuQ 明星讲师，开源项目 Moajs 作者，Node.js 技术布道者。曾就职在新浪、网秦，曾做过前端、后端、数据分析、移动端负责人、做过首席架构师、技术总监，全栈技术实践者，目前主要关注技术架构和团队梯队建设方向，正在写一个本新书《更了不起的 Node 4：将下一代 Web 框架 Koa 进行到底》</li>
+</ul>
+
+<h2>为什么前端越来越难？越来越好玩？</h2>
+
+<p><img src="img/tech.png" alt=""></p>
+
+<h2>现代web开发</h2>
+
+<p><img src="img/overview.png" alt=""></p>
+
+<h2>关于目标</h2>
+
+<p>我的观点</p>
+<div class="highlight"><pre><span class="err">没有人就朝“钱”看，有目标就朝“前”看</span>
+</pre></div>
+<p><img src="img/dest.jpg" alt="Dest"></p>
+
+<p>现状：前端正在越来越复杂，这是挑战也是机遇</p>
+<div class="highlight"><pre><span class="err">钱端</span><span class="w"> </span><span class="err">≈</span><span class="w"> </span><span class="err">前端</span>
+</pre></div>
+<h2>这么多东西，学不完？</h2>
+
+<ul>
+<li>开源，有无数可学的，没事儿创造事儿</li>
+<li>创造，自己写，总有无数种需求</li>
+<li>人生不只有编程，其他技能也是非常有用的</li>
+</ul>
+
+<h2>善用github trending</h2>
+
+<p>https://github.com/trending</p>
+
+<p>查找</p>
+
+<p><img src="img/trending.png" alt=""></p>
+
+<ol>
+<li>默认排序是今天，还有周和月</li>
+<li>按照语言分类</li>
+<li>找到自己喜欢或关注的项目</li>
+</ol>
+
+<h2>picturepan2 / spectre</h2>
+
+<p>Spectre.css - a lightweight, responsive and modern CSS framework.</p>
+<div class="highlight"><pre><span class="vg">HTML</span><span class="w"> </span><span class="err">•</span><span class="w"> </span><span class="il">937</span><span class="w"> </span><span class="vg">stars</span><span class="w"> </span><span class="vg">today</span><span class="w"> </span><span class="err">•</span><span class="w"> </span><span class="vg">Built</span><span class="w"> </span><span class="vg">by</span><span class="w">  </span><span class="err">@</span><span class="vg">picturepan2</span><span class="w">  </span><span class="err">@</span><span class="vg">marcobiedermann</span><span class="w">  </span><span class="err">@</span><span class="vg">roybarber</span>
+</pre></div>
+<p>核心要点</p>
+
+<ul>
+<li>CSS framework</li>
+<li>lightweight</li>
+<li>responsive</li>
+<li>modern</li>
+</ul>
+
+<h3>先看它是什么？</h3>
+
+<p>Spectre.css is a lightweight, responsive and modern CSS framework for faster and extensible development.</p>
+
+<ul>
+<li>lightweight and clean starting point for your project and prototype</li>
+<li>flexbox, responsive and mobile-friendly layout</li>
+<li>carefully designed elements</li>
+<li>built in useful components and utilities</li>
+<li>responsive email templates (soon)</li>
+</ul>
+
+<p>Spectre is a side project based on years of CSS development work on a large web service project. Spectre only includes modern base styles, responsive layout system, CSS components and utilities, and it can be modified for your project with LESS compiler.</p>
+
+<h3>Getting started即入门</h3>
+
+<p>3种安装方法</p>
+
+<p>Install manually</p>
+<div class="highlight"><pre><span class="vg">Download</span><span class="w"> </span><span class="vg">the</span><span class="w"> </span><span class="vg">compiled</span><span class="w"> </span><span class="vg">and</span><span class="w"> </span><span class="vg">minified</span><span class="w"> </span><span class="vg">Spectre</span><span class="w"> </span><span class="vg">CSS</span><span class="w"> </span><span class="vg">file</span><span class="o">.</span>
+</pre></div>
+<p>Install with NPM</p>
+<div class="highlight"><pre><span class="nv">$ </span>npm install spectre.css
+</pre></div>
+<p>Install with Bower</p>
+<div class="highlight"><pre><span class="nv">$ </span>bower install spectre.css
+</pre></div>
+<p>具体用法</p>
+
+<p>And include it in your website or Web app <head> part.</p>
+<div class="highlight"><pre><span class="o">&lt;</span><span class="vg">link</span><span class="w"> </span><span class="vg">rel</span><span class="o">=</span><span class="s2">&quot;stylesheet&quot;</span><span class="w"> </span><span class="vg">href</span><span class="o">=</span><span class="s2">&quot;dist/spectre.min.css&quot;</span><span class="w"> </span><span class="o">/&gt;</span>
+</pre></div>
+<h3>Compiling custom version定制</h3>
+
+<p>You can compiling your custom version of Spectre.css. Read the documentation.</p>
+
+<p><a href="http://picturepan2.github.io/spectre/#elements">文档</a>里说</p>
+
+<p>Spectre uses Gulp for compiling CSS. You can customize your version of Spectre.css by editing LESS files in /src directory or removing unneeded components from spectre.less.</p>
+
+<p>Then, you can build the CSS file from the command line:</p>
+
+<ol>
+<li>Navigate to the root directory of Spectre where you can find package.json file.</li>
+<li>Run npm install. NPM will install all dev dependencies as listed in package.json.</li>
+<li>When completed, run gulp build to compile LESS to CSS and minify files.</li>
+<li>You can find compiled CSS files in /dist directory.</li>
+</ol>
+
+<p>You can watch file changes and rebuild CSS files by using gulp watch.</p>
+
+<p>其实就是通过gulp各种组合把less编译成css，less里各种变量、主题、函数等</p>
+
+<h3>各种例子，学习最简单的办法</h3>
+
+<p>Documentation and demos</p>
+
+<p>分了4类</p>
+
+<ul>
+<li>Elements</li>
+<li>Layout</li>
+<li>Components</li>
+<li>Utilities</li>
+</ul>
+
+<p><img src="img/elements.png" alt="Elements"></p>
+
+<p><img src="img/layout.png" alt="Layout"></p>
+
+<p><img src="img/components.png" alt="Components"></p>
+
+<p><img src="img/utils.png" alt="Utils"></p>
+
+<h3>要不要为了演示方便，写一个Tools？</h3>
+
+<p>Responsive Resizer - responsive test tool</p>
+
+<p>http://picturepan2.github.io/spectre/tools/resizer</p>
+
+<p><img src="img/tool.png" alt=""></p>
+
+<h3>Browser support 兼容浏览器</h3>
+
+<p>Spectre uses Autoprefixer to make most styles compatible with earlier browsers and Normalize.css for CSS resets. Spectre is designed for modern browsers. For best compatibility, these browsers are recommended:</p>
+
+<ul>
+<li>Chrome (last two)</li>
+<li>Edge (last two)</li>
+<li>Firefox (last two)</li>
+<li>Internet Explorer 10+</li>
+<li>Microsoft Edge</li>
+<li>Opera (last two)</li>
+<li>Safari 6+</li>
+</ul>
+
+<p>估计有很多人会有2个点不是特别了解</p>
+
+<ul>
+<li><a href="https://github.com/postcss/autoprefixer">Autoprefixer</a></li>
+<li><a href="https://necolas.github.io/normalize.css/">Normalize.css</a></li>
+</ul>
+
+<h3>延伸autoprefixer</h3>
+
+<p><img src="img/autoprefix.png" alt=""></p>
+
+<p>看一眼，文档是不是就能明白点什么？</p>
+
+<h3>附加维护人信息</h3>
+
+<p>Currently maintained by Yan Zhu. Feel free to submit a pull request. Help is always appreciated.</p>
+
+<h3>比较，在心里画地图</h3>
+
+<ul>
+<li>还有同类型的项目么？</li>
+<li>它的优点与缺点、差异点等</li>
+<li>什么场景使用更合适？</li>
+</ul>
+
+<p>来一张比较恶俗的图</p>
+
+<p><img src="img/map.jpg" alt="Map"></p>
+
+<h3>关于代码</h3>
+
+<p><img src="img/code.png" alt=""></p>
+
+<h2>知行合一，勇于早轮子</h2>
+
+<p>《传习录》里说</p>
+<div class="highlight"><pre><span class="err">知是行之始，行是知之成。若会得时，只说一个知，已自有行在；只说一个行，已自有知在。古人所以既说一个知，又说一个行者，只为世间有一种人，懵懵懂懂的任意去做，全不解思惟省察，也只是个冥行妄作，所以必说个知，方才行得是。又有一种人，茫茫荡荡悬空去思索，全不肯着实躬行，也只是个揣摸影响，所以说一个行，方才知得真。此是古人不得已补偏救弊的说话。若见得这个意时，即一言而足。今人却就将知行分作两件去做，以为必先知了，然后能行。我如今且去讲习讨论做知的工夫，待知得真了，方去做行的工夫。故遂终身不行，亦遂终身不知。此不是小病痛，其来已非一日矣。某今说个知行合一，正是对病的药，又不是某凿空杜撰。知行本体原是如此。今若知得宗旨时，即说两上亦不妨，亦只是一个。若不会宗旨，便说一个，亦济得甚事？只是闲说话。</span>
+</pre></div>
+<p>看了这么多东西，学了这么多东西，最终目的是啥呢？</p>
+
+<p>创造，才是自我价值实现的最好途径</p>
+
+<ul>
+<li>工具类，随手用，随手写，以前为了写书，写了无数写文档的工具</li>
+<li>最小化，精简，只为求原理、真知</li>
+<li>总结最佳实践，自己写类库、框架设计</li>
+</ul>
+
+<p>直白点总结，你做这些就是为了积累自信，勇于直面惨淡多变的编程人生，让一件无聊的事儿变得有趣</p>
+
+<p>应变是一个人的能力价值的最大体现，如果再加上非常好的敬业态度，就是人才。</p>
+
+<h2>警惕：长尾理论</h2>
+
+<p><img src="img/th.jpeg" alt=""></p>
+
+<ul>
+<li>长尾（Long Tail）</li>
+<li>generic 普通的；通有的；一般的</li>
+<li>specific 详细而精确的；明确的；详尽的；清楚的</li>
+</ul>
+
+<h2>合理安排时间，做一个有意思的人</h2>
+
+<p>《菜根谈》上的原文这样写道：“天地寂然不动，而气机无息稍停；日月尽夜奔驰，而贞明万古不易。故君子闲时要有吃紧的心思，忙处要有悠闲的趣味。”</p>
+
+<p>爱玩没错、装逼没错，如果爱玩、装逼和工作结合到一起，那就是乐趣。</p>
+
+<h2>少抱怨，多思考，未来更美好</h2>
+<div class="highlight"><pre><span class="err">痛苦不是价值，解决问题才是真正的价值</span>
+</pre></div>
+<p><img src="img/53bf4fb8d5c71.jpg" alt="53bf4fb8d5c71"></p>
+
+<p><img src="img/1349097658-103016438.png" alt="1349097658 103016438"></p>
+
+			          	</article>
+			        </div>
+					</div>
+	      </body>
+	    </html>
+			<script type="text/javascript" src="toc/js/jquery-1.4.4.min.js"></script>
+			<script type="text/javascript" src="toc/js/jquery.ztree.all-3.5.min.js"></script>
+			<script type="text/javascript" src="toc/js/ztree_toc.js"></script>
+      <script type="text/javascript" src="toc/toc_conf.js"></script>
+      
+			<SCRIPT type="text/javascript" >
+			<!--
+			$(document).ready(function(){
+          var css_conf = eval(markdown_panel_style);
+          $('#readme').css(css_conf)
+          
+          var conf = eval(jquery_ztree_toc_opts);
+  				$('#tree').ztree_toc(conf);
+
+				
+			});
+			//-->
+			</SCRIPT>
+	  
