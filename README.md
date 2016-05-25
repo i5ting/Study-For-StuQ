@@ -124,6 +124,14 @@ You can watch file changes and rebuild CSS files by using gulp watch.
 - Components
 - Utilities
 
+![Elements](img/elements.png)
+
+![Layout](img/layout.png)
+
+![Components](img/components.png)
+
+![Utils](img/utils.png)
+
 ### 要不要为了演示方便，写一个Tools？
 
 Responsive Resizer - responsive test tool
