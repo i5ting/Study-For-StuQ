@@ -18,7 +18,7 @@
 我的观点
 
 ```
-没有人就朝“钱”看，有目标就朝“前”看
+没有目标就朝“钱”看，有目标就朝“前”看
 ```
 
 ![Dest](img/dest.jpg)
@@ -189,7 +189,7 @@ Currently maintained by Yan Zhu. Feel free to submit a pull request. Help is alw
 
 ![](img/code.png)
 
-## 知行合一，勇于早轮子
+## 知行合一，勇于造轮子
 
 《传习录》里说
 
